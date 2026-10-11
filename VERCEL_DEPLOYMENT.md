@@ -32,7 +32,7 @@ These application limits leave room under Vercel's function request-size limits.
 4. Deploy. No model keys or environment variables are required.
 5. Open the generated `*.vercel.app` address, upload a small document, and ask a question.
 
-`vercel.json` automatically sets `RAG_DEPLOYMENT_MODE=vercel-demo`, routing every request through the FastAPI entrypoint.
+Vercel detects the root `index.py` FastAPI entrypoint. `vercel.json` sets `RAG_DEPLOYMENT_MODE=vercel-demo` without rewriting request paths.
 
 ## Deploy with GitOps
 
