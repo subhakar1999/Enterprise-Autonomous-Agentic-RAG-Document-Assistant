@@ -1,0 +1,8 @@
+.github/
+tests/
+Dockerfile
+docker-compose.yml
+.dockerignore
+DEPLOYMENT.md
+GITOPS.md
+autonomous_agentic_rag_architecture_specification.md
